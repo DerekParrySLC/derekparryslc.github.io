@@ -1,0 +1,75 @@
+
+body {
+	background-color: #1081DE;
+	color: white;
+}
+
+h1 {
+	font-family: 'Caveat Brush', cursive;
+	font-size: 400%;
+}
+
+p,
+a {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 150%;
+}
+
+ul {
+	list-style-position: inside;
+	padding: 0;
+  	list-style-type: none;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #BDDBF4;
+}
+
+
+#my-nav {
+	margin: auto;
+	padding-top: 40px;
+	width: 80%;
+	max-width: 500px;
+}
+
+#my-nav > p {
+	font-size: 135%;
+	opacity: 0.5;
+
+}
+
+#name-logo {
+	float: left;
+}
+
+#contact-me {
+	float: right;
+}
+
+#my-wrapper {
+	margin: 55px auto 0px auto;
+	width: 75%;
+	max-width: 500px;
+	text-align: center;
+}
+
+#profile {
+	width: 8em;
+	height: auto;
+	border-radius: 50%;
+}
+
+#description {
+	font-size: 125%;
+}
+
+
+
+
+/*Blue = #70B1EB*/
