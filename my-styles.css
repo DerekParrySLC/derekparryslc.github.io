@@ -5,8 +5,15 @@ body {
 }
 
 h1 {
+	font-size: 400%;	
+}
+
+h2 {
+	font-size: 300%;
+}
+
+h1, h2 {
 	font-family: 'Caveat Brush', cursive;
-	font-size: 400%;
 }
 
 p,
@@ -38,10 +45,10 @@ a:hover {
 	max-width: 500px;
 }
 
-#my-nav > p {
+#my-nav > a {
 	font-size: 135%;
 	opacity: 0.5;
-
+	text-decoration: none;
 }
 
 #name-logo {

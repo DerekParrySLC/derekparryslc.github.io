@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Welcome</title>
+    <title>Contact</title>
 
     <!-- Bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
@@ -20,15 +20,20 @@
       <a id="contact-me" href="contact.html">Contact Me</a>
     </div>
     <div id="my-wrapper">
-      <img id="profile" src="profile.jpg">
-      <h1>Welcome</h1>
-      <p>My name is Derek Parry</p>
-      <p id="description">I'm a business attorney living in Salt Lake City, Utah. In my spare time, I like to program. You can see a few of my web development projects by clicking on the links below:</p>
-      <ul>
-        <li><a href="#">Simple To-Do List</a></li>
-        <li><a href="#">Rock, Paper, Scissors</a></li>
-        <li><a href="#">Current Temperature in Salt Lake City</a></li>
-      </ul> 
+      <h2>Let's get in touch!</h2>
+			<form action="https://formspree.io/your@email.com"
+      method="POST">
+			  <div class="form-group">			    
+			    <input type="text" class="form-control" id="" placeholder="First and Last Name">			    
+			  </div>
+			  <div class="form-group">			    
+			    <input type="email" class="form-control" id="" placeholder="Email address">		    
+			  </div>
+			  <div class="form-group">
+			    <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Message"></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
